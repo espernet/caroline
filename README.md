@@ -19,16 +19,16 @@ test_channel: "#carolinetest"
 db_url: jdbc:sqlite:caroline.db
 ```
 
-`nick` sets the name display to others in IRC.
-`login` sets the user shown in the hostmask.
-`identify` sets the password sent to NickServ after connecting. This option may be omitted.
-`finger` sets the CTCP finger response. This option may be omitted.
-`version` sets the CTCP version response. This option may be omitted.
-`server` sets the IRC server to connect to.
-`port` sets the port for the IRC server to connect to.
-`help_channel` sets the help channel the bot joins.
-`test_channel` sets the test channel the bot joins, which allows for testing the bot's functionality in a separate channel. This option may be omitted.
-`db_url` sets the location of the database. If the database does not exist it will be created on the next run along with being populated with the required tables.
+`nick` sets the name display to others in IRC.  
+`login` sets the user shown in the hostmask.  
+`identify` sets the password sent to NickServ after connecting. This option may be omitted.  
+`finger` sets the CTCP finger response. This option may be omitted.  
+`version` sets the CTCP version response. This option may be omitted.  
+`server` sets the IRC server to connect to.  
+`port` sets the port for the IRC server to connect to.  
+`help_channel` sets the help channel the bot joins.  
+`test_channel` sets the test channel the bot joins, which allows for testing the bot's functionality in a separate channel. This option may be omitted.  
+`db_url` sets the location of the database. If the database does not exist it will be created on the next run along with being populated with the required tables.  
 
 ## Usage
 Certain commands can be triggered over a private message to the bot. This allows for modifying its command database. All commands are case insensitive. These commands and the ones defined in the database can be accessed by anyone that is opped or voiced in the configured help channel.
