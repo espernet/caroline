@@ -1,0 +1,8 @@
+.settings/
+bin/
+target/
+
+.classpath
+.project
+*.db
+*.yml
