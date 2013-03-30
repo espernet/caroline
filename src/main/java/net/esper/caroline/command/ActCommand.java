@@ -36,7 +36,7 @@ public class ActCommand extends Command {
 	@Override
 	protected void setup() {
 		// Configure command properties.
-		triggers.add("SAY");
+		triggers.add("ACT");
 		privateMessageCommand = true;
 	}
 
